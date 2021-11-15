@@ -1,0 +1,28 @@
+body{
+    background-color: red;
+    font-family: Arial;
+}
+p.p1{
+    color: white;
+}
+p.p2{
+    color: yellow;
+}
+p.p3{
+    color: blue;
+}
+a{
+    color: white;
+}
+h1{
+    color:white;
+    background-color: blue;
+}
+h2{
+    color: green;
+    background-color: yellow;
+}
+h3{
+    color:black;
+    background-color: white;
+}
