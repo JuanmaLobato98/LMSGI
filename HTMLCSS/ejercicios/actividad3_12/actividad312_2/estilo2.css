@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+.teal {
+  color: teal;
+}
+
+.rojo {
+  color: red;
+}
+
+.azul {
+  color: blue;
+}
+
+.naranja {
+  color: orange;
+}
+.morado {
+  color: purple;
+}
+
+.oliva {
+  color: olive;
+}
+
+.fucsia {
+  color: fuchsia;
+}
+
+.verde {
+  color: green;
+}
+
+.columna2 {
+  background-color: red;
+}
+
+.columna3 {
+  background-color: green;
+}
+
+.columna4 {
+  background-color: blue;
+}

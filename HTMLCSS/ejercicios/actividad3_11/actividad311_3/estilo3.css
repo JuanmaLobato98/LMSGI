@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+table {
+  margin: auto;
+  border: 1px solid #333;
+  border-collapse: collapse;
+  font-family: Arial;
+  font-size: 14px;
+  width: 450px;
+  line-height: 20px;
+}
+
+td {
+  text-align: center;
+}
+
+td.morado {
+  background-color: #8000ff;
+  color: white;
+}
+
+td.moradoIzquierda {
+  text-align: left;
+  background-color: #8000ff;
+  color: white;
+}
+
+
+tr:hover{
+  background-color: #FFFF66;
+}
+
+tr.amarillo{
+  background-color: #FFFFCC;
+}
+tr.amarillo:hover{
+    background-color: #FFFF66;
+  }
+

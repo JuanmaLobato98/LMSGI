@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+table {
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+
+td {
+    border: 1px solid gray;
+}
+
+tr {
+    border: 1px solid gray;
+}
+
+td.izquierda {
+  width: 400px;
+  background-color: lightgray;
+}
+
+td.derecha {
+  background-color: aliceblue;
+}
+
+td#textoCentro {
+  text-align: center;
+}
+
+input {
+  background-color: blue;
+  color: white;
+}
+
+select {
+  background-color: blue;
+  color: white;
+}
+
+textarea{
+  background-color: brown;
+  color: white;
+}

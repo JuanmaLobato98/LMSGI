@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Encuesta</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="enc_estilo.css">
+  </head>
+
+  <body>
+    <table>
+      <tr>
+        <td class="izquierda">
+          Nombre:
+        </td>
+        <td class="derecha">
+          <input type="text" name="nombre">
+          F.Nac:<input type="text" name="fechanac">
+          DNI <input type="text" name="dni">
+        </td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          Apellidos:
+        </td>
+        <td class="derecha">
+          <input type="text" name="Apellidos">
+        </td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          Selecciones su musica favorita: <br> <br>
+          (Clasica, Pop, Rock, Heavy)
+        </td>
+        <td class="derecha">
+          <select name="menu" size="4">
+            <option value="1">Clasica</option>
+            <option value="2">Pop</option>
+            <option value="3">Rock</option>
+            <option value="4">Heavy</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          Selecciones grupo de rock favorito: <br> <br>
+          (U2, The Rolling Stones, Pink Floyd, The Who, Nirvana)
+        </td>
+        <td class="derecha">
+          <select name="menu">
+            <option value="1">U2</option>
+            <option value="2">Rolling Stones</option>
+            <option value="3">Pink Floyd</option>
+            <option value="4">The Who</option>
+            <option value="5">Nirvana</option>
+          </select>
+          Escoja una opcion
+        </td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          Fecha y hra del concierto:
+        </td>
+        <td class="derecha">
+          <input type="date" name="fecha">
+          <select name="franja">
+            <option value="13-14">13:00--14:00</option>
+            <option value="14-15">14:00--15:00</option>
+            <option value="15-16">15:00--16:00</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          Comentarios personales:
+        </td>
+        <td class="derecha">
+          <textarea name="demandas" cols="50" rows="5"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td class="izquierda">
+          Pulse aquí:
+        </td>
+        <td class="derecha" id="textoCentro">
+          <input type="submit" name="bEnviar" value="Enviar Datos">
+          <input type="reset" name="bReset" value="Borrar los datos">
+        </td>
+      </tr>
+    </table>
+
+  </body>
+</html>

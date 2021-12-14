@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+table {
+  margin: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: Arial;
+  font-size: 14px;
+  width: 550px;
+}
+
+td {
+  text-align: center;
+}
+
+th {
+  background-color: yellow;
+}
+
+tr.rosa{
+  background-color: pink;
+}
+
+tr.gris {
+  background-color: grey;
+}
+
+caption {
+  caption-side: bottom;
+}

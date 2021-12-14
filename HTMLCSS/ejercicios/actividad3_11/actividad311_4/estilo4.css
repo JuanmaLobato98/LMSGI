@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+label {
+  color: blue;
+}
+
+label.negrita{
+  font-weight: bold;
+}
+
+input {
+  border-color: blue;
+}
+
+input.caja {
+  background-color: blue;
+  color: white;
+}
+
+textarea {
+    border-color: blue;
+  }

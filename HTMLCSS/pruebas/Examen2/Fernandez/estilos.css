@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+body {
+  font-family: verdana;
+  color: #000;
+  font-size: 12px;
+}
+
+img {
+  width: 400px;
+  height: 200px;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+h1 {
+  color: #333;
+  font-size: 20px;
+}
+
+h2 {
+  color: #666;
+  font-size: 16px;
+}
+
+th {
+  color: white;
+  background-color: #666;
+  font-size: 12px;
+}
+
+caption {
+    color: #000;
+    font-size: 14px;
+}
+
+tr {
+  border: 1px solid black;
+  height: 40px;
+}
+
+td{
+  background-color: #fff;
+  border: 1px solid black;
+
+}
+
+td.pieDeTabla{
+  background-color: #ccc;
+  border: 1px solid black;
+
+}
+
+a {
+  color: blue;
+  font-size: 12px;
+}
