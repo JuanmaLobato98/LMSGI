@@ -1,0 +1,69 @@
+/* Estilos de la web tarjetas
+Juan Manuel Fernandez Lobato */
+
+body{ /* Coloco una imagen como fondo en modo parallax como el anterior proyecto*/
+    background-image: url("img/fondo.jpg");
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#columnas { /* identificador para un div padre donde van todas las tarjetas y se coloquen en filas*/
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.titulo { /* esta clase esta asociada a un div con el titulo y una pequeña imagen*/
+    color: #f9e4b7;
+}
+.titulo h1 {
+    text-align: center;
+}
+.titulo img {
+    width: 100px;
+    margin-left: 45%;
+    margin-top: -2%;
+}
+
+.tarjeta { /*estilo de las tarjetas*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);/*sombra*/
+    width: 300px;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: #f9e4b7;
+  }
+
+.tarjeta p.texto {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.tarjeta button { /* boton de reserva de las tarjetas*/
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+  }
+
+.tarjeta button:hover {
+    opacity: 0.7;
+  }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.estrellas img {
+    width: 40%;
+  }

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jugadores [
+ <!ELEMENT jugadores (jugador)*>
+ <!ELEMENT jugador (codigo, nombre, apodo?, fecha_nac, posicion, numero, altura)*>
+ <!ELEMENT codigo (#PCDATA)>
+ <!ELEMENT nombre (#PCDATA)>
+ <!ELEMENT apodo     (#PCDATA)>
+ <!ELEMENT fecha_nac (#PCDATA)>
+ <!ELEMENT posicion (#PCDATA)>
+ <!ELEMENT numero (#PCDATA)>
+ <!ELEMENT altura (#PCDATA)>
+]>
+
+<jugadores>
+	<jugador>
+        <codigo>0001</codigo>
+        <nombre>Rafa Martínez</nombre>
+        <apodo>Pitbull</apodo>
+        <fecha_nac>03/03/1982</fecha_nac>
+        <posicion>Escolta</posicion>
+        <numero>17</numero>
+        <altura>190cm</altura>
+    </jugador>
+    <jugador>
+        <codigo>0002</codigo>
+        <nombre>Fernando San Emeterio</nombre>
+        <apodo>San Eme</apodo>
+        <fecha_nac>01/01/1984</fecha_nac>
+        <posicion>Alero</posicion>
+        <numero>19</numero>
+        <altura>199cm</altura>
+    </jugador>
+    <jugador>
+        <codigo>0003</codigo>
+        <nombre>Bojan Dubljevic</nombre>
+        <apodo>Montenegrino</apodo>
+        <fecha_nac>24/10/1991</fecha_nac>
+        <posicion>Pívot</posicion>
+        <numero>14</numero>
+        <altura>205cm</altura>
+    </jugador>
+</jugadores>

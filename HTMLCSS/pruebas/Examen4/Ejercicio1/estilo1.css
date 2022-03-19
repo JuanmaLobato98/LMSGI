@@ -1,0 +1,22 @@
+@charset "utf-8";
+/*Estilo1 Juan Manuel Fernandez Lobato 18/03/2022-->*/
+
+body  {
+  margin-left: 35%; /*para ajustar el contenido al centro*/
+}
+p {
+  border: 5px solid black;
+  width: 500px;
+  line-height: 50px;
+  padding-top: 20px;
+}
+
+div {
+  background-color: lightblue;
+  width: 350px;
+  height: 100px;
+  position:fixed ; /*el posicionamiento absolute fixed es el que hace que haga scroll con la pagina*/
+  top: 150px; /*posiscionamos el cuadro donde queremos*/
+  left:550px ;
+
+}

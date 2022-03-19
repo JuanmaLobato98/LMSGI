@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deportistas id="1"> <!--Faltan los id en cada elemento-->
+  <deportista>
+    <deporte> Atletismo </deporte> <!--La etiqueta deporte estaba mal escrita al incio y fin-->
+    <nombre>Jesse Owens</nombre>
+  </deportista><!--Faltaba cerrar la etiqueta deportista-->
+  <deportista id="2">
+    <deporte>Natación</deporte>
+    <nombre>Mark Spitz</nombre>
+  </deportista>
+</deportistas>

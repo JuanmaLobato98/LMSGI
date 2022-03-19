@@ -1,0 +1,57 @@
+/* Estilo del formulario de tarjetas
+Juan Manuel Fernandez Lobato*/
+
+body {
+    width: 50%;
+    margin-left: 25%;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+div {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Iconos donde colocamos los png del formulario */
+.icono {
+  padding: 10px;
+  background: #f9e4b7;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Zona de texto del formulario */
+.formulario {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.formulario:focus {
+  border: 2px solid #f9e4b7;
+}
+
+/* Boton de registrarse*/
+.boton {
+  background-color: #f9e4b7;
+  color: black;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.boton:hover {
+  opacity: 1;
+}
+
+img {
+    width: 30px;
+}

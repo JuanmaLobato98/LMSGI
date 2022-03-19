@@ -1,0 +1,12 @@
+/*Estilo2 Juan Manuel Fernandez Lobato 18/03/2022-->*/
+@charset "utf-8";
+body  {
+    margin-left: 35%; /*para ajustar el contenido al centro*/
+  }
+
+
+p {
+  font-size: 30px;
+  width: 400px;
+  margin-top: -180px; /*margen negativo para que se sobre ponga al elemento de arriba*/
+}

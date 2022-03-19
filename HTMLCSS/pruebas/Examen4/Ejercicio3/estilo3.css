@@ -1,0 +1,77 @@
+/*Estilo3 Juan Manuel Fernandez Lobato 18/03/2022-->*/
+/*cabecera*/
+@charset "utf-8";
+body  {
+width: 70%;
+margin-left: 15%; /*para ajustar un poco el tamaño de la pagina que se vea mas del tamaño del enunciado y este centrada*/
+}
+header {
+  font-size: 20px;
+  color:white;
+  height: 80px;
+  background-color: purple;
+  padding-top: 10px;
+}
+
+/*imagen de la cabecera*/
+header img {
+  width: 100px;
+  float: left;
+}
+
+/*Menu de la cabecera*/
+header nav  {
+  width: 100%;
+  background-color: lightgrey;
+  height: 20px;
+  margin-top: -6px;
+}
+
+/*articulo principal*/
+article  {
+  height: 600px;
+}
+
+/* clase articulo para el h1 que esta dentro de este*/
+h1.articulo  {
+  font-size: 30px;
+}
+
+/* secciones que estan dentro del articulo*/
+section  {
+  color: grey;
+}
+
+/* titulos dentro de las secciones*/
+section h2  {
+  text-decoration: underline;
+}
+
+/* aside donde esta la imagen de las verduras*/
+aside  {
+    float: right; /*para que se coloque a la derecha*/
+}
+
+/*navegador donde se enuentra la lista de productos*/
+nav  {
+  float: left; /*para que se coloque a la izquierda*/
+  height: 700px;
+  width: 200px;
+  color: purple;
+}
+
+/*pies de pagina*/
+footer  {
+  background-color: lightgrey;
+  color:grey;
+}
+
+footer p {
+  text-align: center;
+}
+
+address  {
+  text-align: center;
+  font-style: normal;
+  color: grey;
+}

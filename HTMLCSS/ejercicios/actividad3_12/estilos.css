@@ -1,0 +1,108 @@
+body {
+  background-color: #E0E0E0;
+}
+
+div {
+  width: 1024px;
+}
+
+h1 {
+  font-family: Arial;
+  color: #FFF;
+  font-size: 28px;
+  text-align: center;
+  background-color: #000;
+}
+
+h2 {
+  padding-top: 10px;
+  margin-left: 350px;
+}
+
+section.menu {
+  background-color: #FFF;
+  height: 100px;
+  display: inline-flex;
+  width: 1024px;
+}
+
+
+
+aside {
+  background-color: #8a8373;
+  float: right;
+  height: 690px;
+  text-align: center;
+  padding: 10px;
+}
+
+h3 {
+  font-family: Arial;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  font-family: Arial;
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  background-color: #404040;
+  text-align: center;
+}
+
+img.izquierda {
+  float: left;
+}
+
+a.menu {
+  font-family: Arial;
+  color: #000;
+  font-size: 18px;
+  text-decoration:solid ;
+}
+
+a.menu:hover {
+  text-decoration: underline;
+}
+
+article.tecnica {
+  height: 690px;
+}
+
+h2.tecnica {
+  font-family: Arial;
+  font-size: 22px;
+  color: #000;
+}
+
+table {
+  width: 650px;
+  border: 2px dotted #000;
+  font-family: Arial;
+  font-size: 14px;
+  border-collapse: collapse;
+  margin-left: 75px;
+}
+
+tr.fila1 {
+  background-color: #000;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+tr.fila2 {
+  background-color: #818181;
+  color: white;
+  font-weight: bold;
+}
+
+tr.fila3 {
+  font-weight: bold;
+}
+
+td {
+  width: 25%;
+}

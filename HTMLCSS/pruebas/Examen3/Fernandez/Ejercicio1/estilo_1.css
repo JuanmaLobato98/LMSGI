@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+div{
+  display:flex;
+  flex-direction: column;
+}
+
+p {
+  width: 100px;
+  background-color: red;
+}
+
+p.inferior {
+  align-self:flex-end;
+  background-color: green;
+}
+
+

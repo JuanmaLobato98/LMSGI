@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+p {
+  width: 600px;
+  columns: 3;
+  column-rule: red solid 2px;
+  column-gap: 100px;
+  text-align: justify;
+}

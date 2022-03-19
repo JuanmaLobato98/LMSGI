@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<alumno xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:SchemaLocation= "http://www.prueba.es/persona personas.xsd
+http://www.prueba.es/docencia docencias.xsd"
+xmlns:x1="http://www.prueba.es/persona"
+xmlns:x2="http://www.prueba.es/docencia">
+
+    <x1:persona x1:nacimiento="1998-12-15">
+        <x1:datos>
+            <x1:nombre>Pepe</x1:nombre>
+            <x1:apellidos>García</x1:apellidos>
+            <x1:dni>25390952X </x1:dni>
+        </x1:datos>
+        <x1:comentarios>repetidor</x1:comentarios>
+    </x1:persona>
+    <asignaturas>
+        <x2:grupo>1ASIR</x2:grupo>
+        <x2:asignatura>
+            <x2:nombre_asig>Lenguaje de Marcas</x2:nombre_asig>
+            <x2:horas_semanales>4</x2:horas_semanales>
+            <x2:profesor>Juan Moreno</x2:profesor>
+        </x2:asignatura>
+
+        <x2:asignatura>
+            <x2:nombre_asig>Fundamentos de Hardware</x2:nombre_asig>
+            <x2:horas_semanales>3</x2:horas_semanales>
+            <x2:profesor>Virginia Lopez</x2:profesor>
+        </x2:asignatura>
+    </asignaturas>
+</alumno>

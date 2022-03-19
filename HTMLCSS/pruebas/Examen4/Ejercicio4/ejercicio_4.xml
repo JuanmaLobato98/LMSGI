@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas [ <!-- Modificamos el elemento raiz que sea personas en lugar de persona por si deseamos guardar mas de 1 y tna coherencia-->
+<!ELEMENT personas (person)> <!-- El elemento raiz esta formado por elementos de tipo persona-->
+<!ELEMENT person (name+, profession*)> <!-- Este elemento persona a a estar formado por 1o mas elementos(+) de tipo name y 0 o mas elementos(*) de tipo profesion-->
+<!ELEMENT name (first, last)><!-- El name esta formado por first y last-->
+<!-- El resto de elementos se rellenan con valores-->
+<!ELEMENT first (#PCDATA)>
+<!ELEMENT last (#PCDATA)>
+<!ELEMENT profession (#PCDATA)>
+]>
+
+<!-- Hemos sustituido todos los atributos del archivo original porque es mejor usar elementos dentro de otros en lugar de atributos-->
+<personas>
+    <person>
+        <name>
+            <first>Alan</first>
+            <last>Turing</last>
+        </name>
+        <profession>Computer scientist</profession>
+        <profession>mathematician</profession>
+        <profession>cryptographer</profession>
+    </person>
+</personas>
