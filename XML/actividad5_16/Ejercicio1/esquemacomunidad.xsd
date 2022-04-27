@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+
+
+    <xs:element name="comunidad" type="tComunidad"/>
+    <xs:complexType name="tComunidad">
+        <xs:sequence>
+            <xs:element name="vecino" type="tVecino"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tVecino">
+        <xs:all>
+            <xs:element name="codigo" type="xs:integer"/>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="apellidos" type="xs:string"/>
+            <xs:element name="portal" type="xs:string"/>
+            <xs:element name="pisoyletra" type="xs:string"/>
+            <xs:element name="cuenta" type="tCuenta"/>
+            <xs:element name="cargo" type="tCargo"/>
+        </xs:all>
+    </xs:complexType>
+
+    <xs:simpleType name="tCuenta">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="20"></xs:maxLength>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tCargo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Presidente"></xs:enumeration>
+            <xs:enumeration value="Vicepresidente"></xs:enumeration>
+            <xs:enumeration value="Vocal"></xs:enumeration>
+            <xs:enumeration value="Ninguno"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

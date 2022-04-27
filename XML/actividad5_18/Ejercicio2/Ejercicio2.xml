@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tablabiblioteca.xsl"?>
+<libreria>
+    <libro>
+        <titulo>Physics-based animation</titulo>
+        <autor>Kenny Erleben</autor>
+        <editor>Charles River Media</editor>
+        <isbn>978-1584593804</isbn>
+        <precio>50.06</precio>
+        <numpaginas>220</numpaginas>
+    </libro>
+    <libro>
+        <titulo>Principios de seguridad informática</titulo>
+        <autor>Carlos Garre</autor>
+        <editor>Dykinson </editor>
+        <isbn>978-4614593407</isbn>
+        <precio>13.06</precio>
+        <numpaginas>195</numpaginas>
+    </libro>
+    <libro>
+        <titulo>Don Quijote de la Mancha</titulo>
+        <autor>Cervantes</autor>
+        <editor>Anaya </editor>
+        <isbn>978-26145829477</isbn>
+        <precio>10.49</precio>
+        <numpaginas>1345</numpaginas>
+    </libro>
+    <libro>
+        <titulo>Harry Potter</titulo>
+        <autor>J.K. Rowling</autor>
+        <editor>Santillana </editor>
+        <isbn>978-7827630937</isbn>
+        <precio>9.99</precio>
+        <numpaginas>678</numpaginas>
+    </libro>
+    <libro>
+        <titulo>Los Juegos del Hambre</titulo>
+        <autor>Miguel Lopez</autor>
+        <editor>Mundo Editorial </editor>
+        <isbn>978-9826393407</isbn>
+        <precio>8.90</precio>
+        <numpaginas>458</numpaginas>
+    </libro>
+    <libro>
+        <titulo>Harry Potter Y el Caliz de Fuego</titulo>
+        <autor>J.K. Rowling</autor> <!--Nuevo libro con el mismo autor que uno anterior-->
+        <editor>Santillana </editor>
+        <isbn>978-67380980937</isbn>
+        <precio>12.50</precio>
+        <numpaginas>596</numpaginas>
+    </libro>
+</libreria>

@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+
+
+    <xs:element name="clientes" type="tCientes"/>
+    <xs:complexType name="tClientes">
+        <xs:sequence>
+            <xs:element name="cliente" type="tCliente"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tCliente">
+        <xs:all>
+            <xs:element></xs:element>
+        </xs:all>
+    </xs:complexType>

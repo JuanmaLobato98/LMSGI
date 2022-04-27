@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comunidad [
+ <!ELEMENT comunidad (vecino)*>
+ <!ELEMENT vecino (codigo, nombre,apellidos,portal, pisoyletra, cuenta, cargo)*>
+ <!ELEMENT codigo (#PCDATA)>
+ <!ELEMENT nombre (#PCDATA)>
+ <!ELEMENT apellidos (#PCDATA)>
+ <!ELEMENT portal (#PCDATA)>
+ <!ELEMENT pisoyletra (#PCDATA)>
+ <!ELEMENT cuenta (#PCDATA)>
+ <!ELEMENT cargo (#PCDATA)>
+]>
+
+<comunidad>
+    <vecino>
+        <codigo>1</codigo>
+        <nombre>Juan</nombre>
+        <apellidos>Fernandez</apellidos>
+        <portal>4</portal>
+        <pisoyletra>12A</pisoyletra>
+        <cuenta>12345678901234567890</cuenta>
+        <cargo>Presidente</cargo>
+    </vecino>
+    <vecino>
+        <codigo>2</codigo>
+        <nombre>Maria</nombre>
+        <apellidos>Lopez</apellidos>
+        <portal>2</portal>
+        <pisoyletra>1A</pisoyletra>
+        <cuenta>12345678901234567890</cuenta>
+        <cargo>Vicepresidenta</cargo>
+    </vecino>
+    <vecino>
+        <codigo>3</codigo>
+        <nombre>Jose</nombre>
+        <apellidos>Miranda</apellidos>
+        <portal>4</portal>
+        <pisoyletra>3B</pisoyletra>
+        <cuenta>12345678901234567890</cuenta>
+        <cargo>Ninguno</cargo>
+    </vecino>
+    <vecino>
+        <codigo>4</codigo>
+        <nombre>Jorge</nombre>
+        <apellidos>Garcia</apellidos>
+        <portal>4</portal>
+        <pisoyletra>5C</pisoyletra>
+        <cuenta>12345678901234567890</cuenta>
+        <cargo>Vocal</cargo>
+    </vecino>
+</comunidad>

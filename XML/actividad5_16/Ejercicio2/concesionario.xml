@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concesionario xmlns:xs="https://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="esquemaconcesionario.xsd">
+<coche>
+    <codigo>1</codigo>
+    <marca>Seat</marca>
+    <modelo>Leon</modelo>
+    <matricula>3231JFC</matricula>
+    <matriculacion>2018</matriculacion>
+    <potencia>110</potencia>
+    <plazas>5</plazas>
+    <puertas>5</puertas>
+</coche>
+<coche>
+    <codigo>2</codigo>
+    <marca>Mitshubishi</marca>
+    <modelo>Montero</modelo>
+    <matricula>8530DHD</matricula>
+    <matriculacion>2005</matriculacion>
+    <potencia>115</potencia>
+    <plazas>5</plazas>
+    <puertas>5</puertas>
+</coche>
+<coche>
+    <codigo>3</codigo>
+    <marca>Hyundai</marca>
+    <modelo>i30</modelo>
+    <matricula>4298HJX</matricula>
+    <matriculacion>2012</matriculacion>
+    <potencia>90</potencia>
+    <plazas>5</plazas>
+    <puertas>5</puertas>
+</coche>
+<coche>
+    <codigo>4</codigo>
+    <marca>Ford</marca>
+    <modelo>Puma</modelo>
+    <matricula>1234ABC</matricula>
+    <matriculacion>2022</matriculacion>
+    <potencia>160</potencia>
+    <plazas>5</plazas>
+    <puertas>4</puertas>
+</coche>
+</concesionario>

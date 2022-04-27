@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comunidad xmlns:xs="https://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="esquemacomunidad.xsd">
+    <vecino>
+        <codigo>1</codigo>
+        <nombre>Juan</nombre>
+        <apellidos>Fernandez</apellidos>
+        <portal>4</portal>
+        <pisoyletra>12A</pisoyletra>
+        <cuenta>12345678901234567890</cuenta>
+        <cargo>Presidente</cargo>
+    </vecino>
+    <vecino>
+        <codigo>2</codigo>
+        <nombre>Maria</nombre>
+        <apellidos>Lopez</apellidos>
+        <portal>2</portal>
+        <pisoyletra>1A</pisoyletra>
+        <cuenta>12345678901234567890</cuenta>
+        <cargo>Vicepresidenta</cargo>
+    </vecino>
+    <vecino>
+        <codigo>3</codigo>
+        <nombre>Jose</nombre>
+        <apellidos>Miranda</apellidos>
+        <portal>4</portal>
+        <pisoyletra>3B</pisoyletra>
+        <cuenta>12345678901234567890</cuenta>
+        <cargo>Ninguno</cargo>
+    </vecino>
+    <vecino>
+        <codigo>4</codigo>
+        <nombre>Jorge</nombre>
+        <apellidos>Garcia</apellidos>
+        <portal>4</portal>
+        <pisoyletra>5C</pisoyletra>
+        <cuenta>12345678901234567890</cuenta>
+        <cargo>Vocal</cargo>
+    </vecino>
+</comunidad>

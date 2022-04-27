@@ -1,0 +1,64 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<!--Juan Manuel Fernandez Lobato Ejercicio2-->
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="factura" type="tFactura"/>
+        <xs:complexType name="tFactura">
+            <xs:attribute name="id" type="xs:integer" use="required"/> <!--1 elemento id obligatorio en factura-->
+            <xs:sequence>
+                <xs:element name="emision" type="xs:string" use="required"/><!--2 elemento obligatorio-->
+                <xs:element name="vendedor" type="tVendedor" use="required"/><!--2 elemento obligatorio-->
+                <xs:element name="cliente" type="tCliente" use="required"/><!--2 elemento obligatorio-->
+                <xs:element name="articulo" type="tArticulo" maxOccurs="unbounded"/> <!--3 el elemento solo puede aparecer una vez-->
+                <xs:element name="descuento" type="tDescuento" use="optional"/><!--2 elemento opcional-->
+            </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tVendedor">
+        <xs:attribute name="id" type="xs:integer" use="required"/> <!--4 id obligatorio de vendedor-->
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string" use="required"/><!--4 elemento obligatorio de vendedor-->
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tCLiente">
+        <xs:attribute name="id" type="xs:integer" use="required"/><!--5 id obligatorio de cliente-->
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"/><!--6 elemento obligatorio de cliente-->
+            <xs:element name="direccion" type="tDireccion"/><!--6 elemento obligatorio de cliente-->
+            <xs:element name="telefono" type="tTelefono" use="optional" maxOccurs="unbounded"/><!--6 tlf es opcional y puede aparecer mas de uno-->
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tDireccion">
+        <xs:sequence>
+            <xs:element name="via" type="xs:string"></xs:element>
+            <xs:element name="cp" type="xs:integer"></xs:element>
+            <xs:element name="localidad" type="xs:string"></xs:element>
+            <xs:element name="provincia" type="xs:string"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tTelefono">
+        <xs:attribute name="num" type="xs:integer"></xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="tArticulo"><!-- 7 elementos e ids obligatorio de articulos-->
+        <xs:attribute name="id" type="xs:integer" use="required"/>
+        <xs:attribute name="iva" type="xs:integer" use="required"/>
+        <xs:sequence>
+            <xs:element name="denominacion" type="xs:string"/>
+            <xs:element name="precio" type="xs:double"/>
+            <xs:element name="cantidad" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="tDescuento"><!--8 reestricciones de descuento-->
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"></xs:minInclusive>
+            <xs:maxInclusive value="100"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+</xs:schema>

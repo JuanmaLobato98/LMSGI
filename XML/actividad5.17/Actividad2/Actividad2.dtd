@@ -1,0 +1,33 @@
+<!ELEMENT clientes (cliente)*>
+ <!ELEMENT cliente (codigo,direccion, telefono, facturas, (empresa | particular))>
+ <!ELEMENT codigo (#PCDATA)>
+ <!ELEMENT direccion (nombrevia, numerovia, localidad, provincia, codpostal )>
+ <!ELEMENT nombrevia (#PCDATA)>
+ <!ELEMENT numerovia (#PCDATA)>
+ <!ELEMENT localidad (#PCDATA)>
+ <!ELEMENT provincia (#PCDATA)>
+ <!ELEMENT codpostal (#PCDATA)>
+ <!ELEMENT telefono (#PCDATA)>
+ <!ATTLIST telefono tipo CDATA #REQUIRED>
+ <!ELEMENT facturas (factura)*>
+ <!ELEMENT factura (fecha,numFactura, formapago,observaciones,producto*,cuantia)>
+ <!ELEMENT fecha (#PCDATA)>
+ <!ELEMENT numFactura (#PCDATA)>
+ <!ELEMENT formapago (#PCDATA)>
+ <!ELEMENT observaciones (#PCDATA)>
+ <!ELEMENT producto (codproducto,nombreproducto,cantidad)>
+ <!ELEMENT codproducto (#PCDATA)>
+ <!ELEMENT nombreproducto (#PCDATA)>
+ <!ELEMENT cantidad (#PCDATA)>
+ <!ELEMENT cuantia (subtotal, iva, total)>
+ <!ELEMENT subtotal (#PCDATA)>
+ <!ELEMENT iva (#PCDATA)>
+ <!ELEMENT total (#PCDATA)>
+ <!ELEMENT empresa (nombrecontacto, apellidocontacto, razonsocial,web, cif)>
+ <!ELEMENT particular (nombrecontacto, apellidocontacto, nif)>
+ <!ELEMENT nombrecontacto (#PCDATA)>
+ <!ELEMENT apellidocontacto (#PCDATA)>
+ <!ELEMENT razonsocial (#PCDATA)>
+ <!ELEMENT web (#PCDATA)>
+ <!ELEMENT cif (#PCDATA)>
+ <!ELEMENT nif (#PCDATA)>

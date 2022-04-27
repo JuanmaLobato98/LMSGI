@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Juan Manuel Fernandez Lobato Ejercicio 1-->
+<!DOCTYPE ciudades [
+   <!ELEMENT ciudades (ciudad*)> <!--Indicamos con el asterisco que pueden aparecer mas de un elemento ciudad-->
+   <!ELEMENT ciudad (nombre, capital?)> <!--Indicamos con el simbolo de interrogacion que el elemento capital puede o no aparecer-->
+   <!ELEMENT nombre (#PCDATA)>
+   <!ELEMENT capital EMPTY>
+]>
+
+<ciudades>
+   <ciudad>
+      <nombre>Buenos Aires</nombre>
+      <capital/>
+   </ciudad>
+   <ciudad>
+      <nombre>Liverpool</nombre>
+   </ciudad>
+   <ciudad>
+      <nombre>Osaka</nombre>
+   </ciudad>
+   <ciudad>
+      <nombre>Oslo</nombre>
+      <capital/>
+   </ciudad>
+</ciudades>

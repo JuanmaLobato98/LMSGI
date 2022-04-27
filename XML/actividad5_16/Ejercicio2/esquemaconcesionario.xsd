@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+
+
+    <xs:element name="concesionario" type="tConcesionario"/>
+    <xs:complexType name="tConcesionario">
+        <xs:sequence>
+            <xs:element name="coche" type="tCoche"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tCoche">
+        <xs:all>
+            <xs:element name="codigo" type="xs:integer"/>
+            <xs:element name="marca" type="xs:string"/>
+            <xs:element name="modelo" type="xs:string"/>
+            <xs:element name="matricula" type="xs:string"/>
+            <xs:element name="matriculacion" type="tMatriculacion"/>
+            <xs:element name="potencia" type="xs:integer"/>
+            <xs:element name="plazas" type="xs:integer"/>
+            <xs:element name="puertas" type="tPuertas"/>
+        </xs:all>
+    </xs:complexType>
+
+    <xs:simpleType name="tMatriculacion">
+        <xs:restriction base="xs:integer">
+            <xs:minExclusive value="2000"></xs:minExclusive>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tPuertas">
+        <xs:restriction base="xs:integer">
+            <xs:enumeration value="2"></xs:enumeration>
+            <xs:enumeration value="3"></xs:enumeration>
+            <xs:enumeration value="4"></xs:enumeration>
+            <xs:enumeration value="5"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

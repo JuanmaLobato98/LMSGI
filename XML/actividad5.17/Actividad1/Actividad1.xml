@@ -1,0 +1,73 @@
+<clientes>
+    <cliente>
+        <codigo>c2022</codigo>
+        <direccion>
+            <nombrevia>C/Islas Azores</nombrevia>
+            <numerovia>5</numerovia>
+            <localidad>Aguadulce</localidad>
+            <provincia>Almería</provincia>
+            <codpostal>04720</codpostal>
+        </direccion>
+        <telefono tipo="Contabilidad">+34 666777888</telefono>
+        <facturas>
+            <factura>
+                <fecha>2022-01-10</fecha>
+                <numFactura>EMP-19-2022</numFactura>
+                <formapago>Efectivo</formapago>
+                <observaciones>Entregar en horario de oficina</observaciones>
+                <producto>
+                    <codproducto>PLA-INT-GER</codproducto>
+                    <nombreproducto>geranio</nombreproducto>
+                    <cantidad>1</cantidad>
+                </producto>
+                <cuantia>
+                    <subtotal>44</subtotal>
+                    <iva>9,24</iva>
+                    <total>53,24</total>
+                </cuantia>
+            </factura>
+        </facturas>
+        <empresa>
+            <nombrecontacto>Raul</nombrecontacto>
+            <apellidocontacto>Lopez</apellidocontacto>
+            <razonsocial>La Marquesina</razonsocial>
+            <web>www.lamarquesina.es</web>
+            <cif>S1920212F</cif>
+        </empresa>
+    </cliente>
+
+    <cliente>
+        <codigo>c2022</codigo>
+        <direccion>
+            <nombrevia>C/Islas Azores</nombrevia>
+            <numerovia>5</numerovia>
+            <localidad>Aguadulce</localidad>
+            <provincia>Almería</provincia>
+            <codpostal>04720</codpostal>
+        </direccion>
+        <telefono tipo="Contabilidad">+34 666777888</telefono>
+        <facturas>
+            <factura>
+                <fecha>2022-01-10</fecha>
+                <numFactura>EMP-19-2022</numFactura>
+                <formapago>Efectivo</formapago>
+                <observaciones>Entregar en horario de oficina</observaciones>
+                <producto>
+                    <codproducto>PLA-INT-GER</codproducto>
+                    <nombreproducto>geranio</nombreproducto>
+                    <cantidad>1</cantidad>
+                </producto>
+                <cuantia>
+                    <subtotal>44</subtotal>
+                    <iva>9,24</iva>
+                    <total>53,24</total>
+                </cuantia>
+            </factura>
+        </facturas>
+        <particular>
+            <nombrecontacto>Raul</nombrecontacto>
+            <apellidocontacto>Lopez</apellidocontacto>
+            <nif>11223344R</nif>
+        </particular>
+    </cliente>
+</clientes>
