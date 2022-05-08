@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Restaurante</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <a name="Inicio"></a>
+    <!--Botones para navegar por la pagina-->
+    <div class="botones">
+      <img src="img/isotipo-negro-refectorium.svg">
+      <a href="#Inicio" class="intro">INICIO</a>
+      <a href="#platos" class="historia">PLATOS</a>
+      <a href="#reserva" class="encanto">RESERVA</a>
+    </div>
+    <div class="imagen1">
+                            <!--Ancla para esos botones-->
+      <span class="titulo1"><img src="img/refectorium-logotipo.png" alt="refectorium-logotipo"></span>
+    </div>
+
+    <div class="parrafo1">
+      <a name="platos"></a>
+      <p>Con cerca de 50 años, desde el primer restaurante abierto por Don Francisco Ramírez, la saga familiar ha continuado la pasión por la restauración 
+        y la defensa de un sello diferenciador: cocina sensata basada en los mejores productos estacionales.</p>
+    </div>
+
+
+    <div class="imagen2">
+      <div class="titulo2">
+      <img class="plato1" src="img/plato1.jpg" alt="plato1">
+      <p class="texto1">"La cocina no es química. Es un arte, requiere instinto y gusto, en lugar de medidas exactas"</p>
+      <img class="plato2" src="img/plato2.jpg" alt="plato2">
+      <p class="texto2">"Los mejores platos son muy simples."</p>
+      <img class="plato3" src="img/plato3.jpg" alt="plato3">
+      <p class="texto3">"La historia de la gastronomía es la historia del mundo"</p>
+      <img class="plato4" src="img/plato4.jpg" alt="plato4">
+      <p class="texto4">"Un restaurante que fomenta relaciones y alimenta corazones"</p>
+      <img class="plato5" src="img/plato5.jpg" alt="plato5">
+      <p class="texto5">"La mejor red social es una mesa rodeada de las personas que tu mas quieres"</p>
+      </div>
+    </div>
+
+
+    <div class="parrafo2">
+      <a name="reserva"></a>
+      <p>RESERVA AQUÍ</p>
+    </div>
+
+
+    <div class="imagen3">
+      <div class="container">
+        <form>
+          <ul class="flex-outer">
+            <li>
+              <label for="nombre">nombre</label>
+              <input type="text" id="nombre" placeholder="Introduce tu nombre">
+            </li>
+            <li>
+              <label for="telefono">Telefono</label>
+              <input type="text" id="telefono" placeholder="Introduce tu teléfono">
+            </li>
+            <li>
+              <label for="fecha">Fecha</label>
+              <input type="date" id="fecha">
+            </li>
+            <li>
+              <label for="message">Mensaje</label>
+              <textarea rows="6" id="message" placeholder="Introduce tus observaciones..."></textarea>
+            </li>
+            <li>
+              <p>Horario</p>
+              <ul class="flex-inner">
+                <li>
+                  <input type="radio" id="twenty-to-twentynine" name="hora">
+                  <label for="twenty-to-twentynine">13:00 - 13:30</label>
+                </li>
+                <li>
+                  <input type="radio" id="thirty-to-thirtynine" name="hora">
+                  <label for="thirty-to-thirtynine">13:30 - 14:00</label>
+                </li>
+                <li>
+                  <input type="radio" id="fourty-to-fourtynine" name="hora">
+                  <label for="fourty-to-fourtynine">14:00 - 14:30</label>
+                </li>
+                <li>
+                  <input type="radio" id="fifty-to-fiftynine" name="hora">
+                  <label for="fifty-to-fiftynine">14:30 - 15:00</label>
+                </li>
+                <li>
+                  <input type="radio" id="sixty-to-sixtynine" name="hora">
+                  <label for="sixty-to-sixtynine">15:00 - 15:30</label>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <button type="submit">Reservar</button>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </div>
+
+
+  </body>
+</html>

@@ -1,0 +1,190 @@
+body  {
+  width: 70%;
+  margin-left: 15%;
+}
+
+
+header p  {
+  padding-top: 10px;
+}
+
+
+
+header img  {
+  width: 100%;
+  height: 200px;
+  object-fit:cover;
+  object-position: 0px -180px;
+  clip-path:ellipse(15% 50% at 20% 52%);/*mascara de la imagen en header*/
+}
+
+
+main  {
+    display: flex;
+    flex-direction: row wrap;
+}
+
+main h1,h2  {
+  text-align: center;
+}
+
+main h1  {
+  background-color: blue;
+  padding: 10px;
+  margin-top: 0;
+  color: white;
+}
+
+/*animacion de escritura para los titulos*/
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+
+section h2  {
+  overflow: hidden; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 6s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+
+
+section.primero  {
+  background-color: #2196f3;
+  margin-top: -20px;
+  padding: 10px;
+}
+
+section.segundo  {
+    background-color: #6be8f5;
+    margin-top: 0;
+    padding: 10px;
+}
+
+section.tercero  {
+    background-color: #9acef8;
+    margin-top: 0;
+    padding: 10px;
+}
+
+
+section.cuarto  {
+    background-color: #c3e3fd;
+    margin-top: 0;
+    padding: 10px;
+}
+
+section.quinto  {
+    background-color: #e8f5ff;
+    margin-top: 0;
+    padding: 10px;
+}
+
+section.sexto  {
+    margin-top: 0;
+    padding: 10px;
+}
+
+
+
+aside  {
+  background-color: blue;
+  float: right;
+  color:  white;
+}
+
+footer  {
+  color: white;
+  background-color: blue;
+  text-align: center;
+}
+
+/* estilo del menu*/
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: blue;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: blue;
+  width: 70%;
+  z-index: 1;
+  margin-left: 15%;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+/* animacion de las barras*/
+@keyframes barra  {
+  from {width: 0%;}
+  to {width: 100%;}
+}
+
+
+hr  {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-width: 0;
+  color: #333;
+  background-color: #333;
+  width: 100%;
+  height: 30px;
+  animation-name: barra;
+  animation-duration: 4s;
+}
