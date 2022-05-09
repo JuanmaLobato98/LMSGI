@@ -10,7 +10,7 @@
                     <xsl:value-of select="title"/>
                         <ol>
                             <xsl:attribute name="type">1</xsl:attribute>
-                            <xsl:for-each select="autores/autor">
+                            <xsl:for-each select="autores/autor"><!--Asi mostramos cada autor del libro, seleccionando en un for each los autores-->
                             <li>
                             <xsl:value-of select="."/>
                             </li>

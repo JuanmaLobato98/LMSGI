@@ -4,7 +4,7 @@
     <html>
         <body>
             <ol>
-             <xsl:attribute name="type">1</xsl:attribute>
+             <xsl:attribute name="type">1</xsl:attribute> <!--Indicamos que sea una lista con el atributo type=1 para que sea enumerado-->
                 <xsl:for-each select="catalogo/libro">
                     <li><xsl:value-of select="title"/></li>
                 </xsl:for-each>

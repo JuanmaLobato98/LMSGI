@@ -11,7 +11,7 @@
                         <ol>
                             <xsl:attribute name="type">1</xsl:attribute>
                             <xsl:for-each select="autores/autor">
-                                <xsl:sort select="." order="descending"/>
+                                <xsl:sort select="." order="descending"/><!--Ordenar de manera descendentes-->
 
                                 <li>
 

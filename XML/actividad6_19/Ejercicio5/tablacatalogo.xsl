@@ -7,12 +7,16 @@
                 <table>
                     <tr bgcolor="#f70000">
                         <th> Título </th>
-                        <th> Autor </th>
+                        <th> Autores </th>
                     </tr>
-                    <xsl:for-each select="catalogo/libro">
+                    <xsl:for-each select="catalogo/libro[@fechaedicion &gt; 2000]"> <!--Indicar que solo selecciones los que esten editados por encima del 2000-->
                         <tr>
-                            <td> <xsl:value-of select="title"/> </td>
-                            <td> <xsl:value-of select="autor"/> </td>
+                            <td> <xsl:value-of select="titulo"/> </td>
+                            <td>
+                                <xsl:for-each select="autores/autor">
+                                <xsl:value-of select="."/>
+                                </xsl:for-each>
+                            </td>
                         </tr>
                     </xsl:for-each>
                 </table>
