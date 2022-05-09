@@ -1,0 +1,306 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+  .imagen1, .imagen2, .imagen3, .imagen4 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .imagen1 {
+    background-image: url("img/Vistas.jpg");
+    height: 100%;
+  }
+
+  .imagen2 {
+    background-color: white;
+    height: 700px;
+  }
+
+  .imagen2 img.plato1 {
+      max-height: 349px;
+      position: absolute;
+      border: 1px solid black;
+  }
+  .imagen2 img.plato2 {
+    max-height: 349px;;
+    position: absolute;
+    left: 350px;
+    top: 350px;
+    border: 1px solid black;
+}
+.imagen2 img.plato3 {
+  max-height: 349px;;
+  position: absolute;
+  left: 700px;
+  border: 1px solid black;
+}
+.imagen2 img.plato4 {
+  max-height: 349px;;
+  position: absolute;
+  left: 1050px;
+  top: 350px;
+  border: 1px solid black;
+}
+.imagen2 img.plato5 {
+  max-height: 349px;;
+  position: absolute;
+  left: 1400px;
+  border: 1px solid black;
+}
+
+.imagen2 p.texto1 {
+  width: 349px;
+  height: 349px;
+  font-style: italic;
+  position: absolute;
+  top: 350px;
+  letter-spacing: 10px;
+  line-height: 60px;
+}
+
+.imagen2 p.texto2 {
+  width: 349px;
+  height: 349px;
+  font-style: italic;
+  position: absolute;
+  left: 365px;
+  top: 100px;
+  letter-spacing: 10px;
+  line-height: 60px;
+}
+
+.imagen2 p.texto3 {
+  width: 349px;
+  height: 349px;
+  font-style: italic;
+  position: absolute;
+  top: 400px;
+  left: 720px;
+  letter-spacing: 10px;
+  line-height: 60px;
+}
+
+.imagen2 p.texto4 {
+  width: 349px;
+  height: 349px;
+  font-style: italic;
+  position: absolute;
+  left:  1060px;
+  top: 50px;
+  letter-spacing: 10px;
+  line-height: 60px;
+}
+
+.imagen2 p.texto5 {
+  width: 349px;
+  height: 349px;
+  font-style: italic;
+  position: absolute;
+  left: 1420px;
+  top: 360px;
+  top: 350px;
+  letter-spacing: 10px;
+  line-height: 60px;
+}
+
+.imagen3 {
+  background-color: white;
+  padding: 50px;
+}
+
+
+
+  .titulo1 {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+  }
+
+.titulo3 {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  }
+
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+    text-align:center;
+  }
+
+.parrafo1 {
+    color: black;
+    background-color:#fbd3b9;
+    text-align:center;
+    padding:30px 80px;
+}
+
+.parrafo1 p {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.parrafo2 {
+    color: black;
+    background-color:#fbd3b9;
+    text-align:center;
+    padding:30px 80px;
+}
+
+
+.titulo2 {
+    position: absolute;
+    left: 80px;
+}
+
+.parrafo2 p  {
+  margin-left: 40%;
+  width: 400px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+a.intro {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  margin-left: 10%;
+  top: 45px;
+  border: 2px dotted black;
+  padding: 10px;
+}
+
+a.historia {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  margin-left: 20%;
+  top: 45px;
+  border: 2px dotted black;
+  padding: 10px;
+}
+
+a.encanto {
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  position: absolute;
+  margin-left: 85%;
+  top: 45px;
+  border: 2px dotted black;
+  padding: 10px;
+}
+
+.botones {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  z-index: 100; /*colocar los botones encima del fondo*/
+}
+
+.botones img {
+    padding: 10px;
+    margin-left: 20px;
+    height: 80px;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container * {
+  box-sizing: border-box;
+}
+
+.flex-outer,
+.flex-inner {
+  list-style-type: none;
+  padding: 0;
+}
+
+.flex-outer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex-outer li,
+.flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-inner {
+  padding: 0 8px;
+  justify-content: space-between;  
+}
+
+.flex-outer > li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.flex-outer li label,
+.flex-outer li p {
+  padding: 8px;
+  font-weight: 300;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.flex-outer > li > label,
+.flex-outer li p {
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+
+.flex-outer > li > label + *,
+.flex-inner {
+  flex: 1 0 220px;
+}
+
+.flex-outer li p {
+  margin: 0;
+}
+
+.flex-outer li input:not([type='checkbox']),
+.flex-outer li textarea {
+  padding: 15px;
+  border: none;
+}
+
+.flex-outer li button {
+  margin-left: auto;
+  padding: 8px 16px;
+  border: none;
+  background: #333;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  border-radius: 2px;
+}
+
+.flex-inner li {
+  width: 100px;
+}
